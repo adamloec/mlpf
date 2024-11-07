@@ -4,7 +4,7 @@ from sklearn.linear_model import LogisticRegression
 from sklearn.tree import DecisionTreeClassifier
 from sklearn.ensemble import RandomForestClassifier
 
-from feature import FeatureEngineer
+from mlpf.feature import FeatureEngineer
 
 MODELS = {
         'logistic': LogisticRegression(),

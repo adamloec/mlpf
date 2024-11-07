@@ -6,7 +6,7 @@ from sklearn.model_selection import train_test_split
 
 from mlflow import log_metric, log_params, start_run
 
-from pipeline import MLPipeline
+from mlpf.pipeline import MLPipeline
 
 def mlpf(model_name):
     iris = load_iris()
